@@ -30,7 +30,7 @@ CREATE TABLE IF NOT EXISTS `authors` (
   `author_id`   INT(11) UNSIGNED NOT NULL,
   `author_name` VARCHAR(255)     NOT NULL
 )
-  ENGINE = InnoDB
+  ENGINE = cleanbloguus
   AUTO_INCREMENT = 3
   DEFAULT CHARSET = latin1;
 
@@ -56,7 +56,7 @@ CREATE TABLE IF NOT EXISTS `posts` (
   `post_text`        TEXT             NOT NULL,
   `post_created`     DATETIME         NOT NULL DEFAULT CURRENT_TIMESTAMP
 )
-  ENGINE = InnoDB
+  ENGINE = cleanbloguus
   AUTO_INCREMENT = 3
   DEFAULT CHARSET = latin1;
 
