@@ -77,7 +77,6 @@ Mis oli kıige olulisem umbes Kuu reisi ei olnud, et mees jalg Moon, kuid mida na
 Neile, kes on n‰inud Maa kosmosest, ja sadu ja vıib-olla veel tuhandeid, kes on kogemus kindlasti muudab oma vaatenurgast. Asju, mida me jagame meie maailmas on palju v‰‰rtuslikum kui need, mis meid lahutavad.',
    '2015-10-06 21:39:24'),
   (2, 2, 'Life suxx', 'Blaa', 'Urrjuhh', '2015-10-06 21:49:39');
-(4, 1, 'dfdsfdszfs', 'dfsfxcsxzfdsx', 'fdsfdszxfc', '2015-10-06 21:49:39');
 
 --
 -- Indeksid tımmistatud tabelitele
