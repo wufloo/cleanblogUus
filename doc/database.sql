@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS `authors` (
   DEFAULT CHARSET = latin1;
 
 --
--- Andmete tımmistamine tabelile `authors`
+-- Andmete t√µmmistamine tabelile `authors`
 --
 
 INSERT INTO `authors` (`author_id`, `author_name`) VALUES
@@ -61,25 +61,25 @@ CREATE TABLE IF NOT EXISTS `posts` (
   DEFAULT CHARSET = latin1;
 
 --
--- Andmete tımmistamine tabelile `posts`
+-- Andmete t√µmmistamine tabelile `posts`
 --
 
 INSERT INTO `posts` (`post_id`, `author_id`, `post_title`, `post_description`, `post_text`, `post_created`) VALUES
-  (1, 1, 'Mees peab uurma ja see uurimus on v‰gevaim.', 'Probleemid vıivad n‰ha v‰ga tillukestena 150 miili kırguselt.',
-   'Kunagi kogu oma ajaloo on mehed suutnud tıeliselt kujutleda maailma ¸ks: ¸he sf‰‰ri, maakera, millel omadusi maakera, ¸mmargune maa, kus kıik suunad lıpuks kohtuda, kus puudub keskus, sest iga punkt vıi neid pole, keskus - vırdne Maa, mis kıik mehed hıivata vırdsetena. Airman muld, kui vabad mehed teevad seda, mis on tıeliselt ringi: maakera praktikas, mitte teoorias.
+  (1, 1, 'Mees peab uurma ja see uurimus on v√§gevaim.', 'Probleemid v√µivad n√§ha v√§ga tillukestena 150 miili k√µrguselt.',
+   'Kunagi kogu oma ajaloo on mehed suutnud t√µeliselt kujutleda maailma √ºks: √ºhe sf√§√§ri, maakera, millel omadusi maakera, √ºmmargune maa, kus k√µik suunad l√µpuks kohtuda, kus puudub keskus, sest iga punkt v√µi neid pole, keskus - v√µrdne Maa, mis k√µik mehed h√µivata v√µrdsetena. Airman muld, kui vabad mehed teevad seda, mis on t√µeliselt ringi: maakera praktikas, mitte teoorias.
 
-Teadus lıikab kaks vıimalust, muidugi; Oma tooteid saab kasutada nii hea ja kurja vahel. Aga seal ei ole enam tagasiteed teadusest. Varajased hoiatused tehnoloogiliste ohtude tulla ka teaduses.
+Teadus l√µikab kaks v√µimalust, muidugi; Oma tooteid saab kasutada nii hea ja kurja vahel. Aga seal ei ole enam tagasiteed teadusest. Varajased hoiatused tehnoloogiliste ohtude tulla ka teaduses.
 
-Mis oli kıige olulisem umbes Kuu reisi ei olnud, et mees jalg Moon, kuid mida nad m‰‰rata silma maa peal.
+Mis oli k√µige olulisem umbes Kuu reisi ei olnud, et mees jalg Moon, kuid mida nad m√§√§rata silma maa peal.
 
-‹ks Hiina lugu r‰‰gib mıned mehed saadeti kahjustada noor t¸druk, kes n‰hes tema ilu, muutub tema kaitsjad, mitte tema rikkujaid. See, kuidas ma tundsin n‰hes Maa esmakordselt. Ma ei saa aidata, kuid armastan ja kalliks teda.
+√úks Hiina lugu r√§√§gib m√µned mehed saadeti kahjustada noor t√ºdruk, kes n√§hes tema ilu, muutub tema kaitsjad, mitte tema rikkujaid. See, kuidas ma tundsin n√§hes Maa esmakordselt. Ma ei saa aidata, kuid armastan ja kalliks teda.
 
-Neile, kes on n‰inud Maa kosmosest, ja sadu ja vıib-olla veel tuhandeid, kes on kogemus kindlasti muudab oma vaatenurgast. Asju, mida me jagame meie maailmas on palju v‰‰rtuslikum kui need, mis meid lahutavad.',
+Neile, kes on n√§inud Maa kosmosest, ja sadu ja v√µib-olla veel tuhandeid, kes on kogemus kindlasti muudab oma vaatenurgast. Asju, mida me jagame meie maailmas on palju v√§√§rtuslikum kui need, mis meid lahutavad.',
    '2015-10-06 21:39:24'),
   (2, 2, 'Life suxx', 'Blaa', 'Urrjuhh', '2015-10-06 21:49:39');
 
 --
--- Indeksid tımmistatud tabelitele
+-- Indeksid t√µmmistatud tabelitele
 --
 
 --
@@ -96,7 +96,7 @@ ADD PRIMARY KEY (`post_id`),
 ADD KEY `author_id` (`author_id`);
 
 --
--- AUTO_INCREMENT tımmistatud tabelitele
+-- AUTO_INCREMENT t√µmmistatud tabelitele
 --
 
 --
@@ -110,7 +110,7 @@ MODIFY `author_id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT = 3;
 ALTER TABLE `posts`
 MODIFY `post_id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT = 3;
 --
--- Tımmistatud tabelite piirangud
+-- T√µmmistatud tabelite piirangud
 --
 
 --
